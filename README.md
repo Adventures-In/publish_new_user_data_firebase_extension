@@ -1,4 +1,4 @@
-# firebase_extension_publish_new_user_data
+# publish_new_user_data_firebase_extension
 
 On Firebase user creation, publish user data to a given PubSub topic.
 
