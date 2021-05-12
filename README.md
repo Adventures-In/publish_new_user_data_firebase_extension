@@ -7,8 +7,8 @@ The published messages will be consumed by another service such as: [on_user_cre
 ## Using the extension
 
 ### Setup 
-- edit `.firebaserc` to add the relevant project name
-- edit `index.ts` to add the relevant topic name 
+- in `.firebaserc` update PROJECT_NAME
+- edit `index.ts` update TOPIC_NAME
 
 ### Deploy 
 - run `firebase deploy --only functions`
