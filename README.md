@@ -1,10 +1,8 @@
 # publish_new_user_data_firebase_extension
 
-On Firebase user creation, publish user data to a given PubSub topic.
+On Firebase user creation, publish user data to a PubSub topic named "NEW_USER".
 
 The published messages will be consumed by another service such as: [on_user_creation_microservice](https://github.com/Adventures-In/on_user_creation_microservice).
-
-The topic is "NEW_USER".
 
 See also: [How to connect a Cloud Function to a Dart microservice with Pub/Sub](https://reference-material.notion.site/How-to-connect-a-Cloud-Function-to-a-Dart-microservice-with-Pub-Sub-e3ef54cbdd324d1f83c3673ddd157c26)
 
