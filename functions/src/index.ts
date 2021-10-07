@@ -1,7 +1,7 @@
 import {PubSub} from "@google-cloud/pubsub";
 import * as functions from "firebase-functions";
 
-const topicName = "TOPIC_NAME";
+const topicName = "NEW_USER";
 const topic = (new PubSub()).topic(topicName);
 
 /**
